@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "rules": {
+    "camelcase": 0,
+    "comma-dangle": 0,
+    "operator-linebreak": 0,
+    "prefer-promise-reject-errors": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true
+      }
+    ],
+    "no-console": 0,
+    "no-multiple-empty-lines": 2,
+    "padded-blocks": 0,
+    "indent": 2,
+    "semi": 2,
+    "curly": 2,
+    "eqeqeq": 2,
+    "space-before-function-paren": 2
+  },
+  "globals": {
+    "NODE_ENV": true,
+    "VERSION": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint"
+}
